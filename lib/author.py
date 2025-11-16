@@ -1,2 +1,2 @@
-# lib/classes/author.py
-from .many_to_many import Author
+# lib/classes/article.py
+from .many_to_many import Article
