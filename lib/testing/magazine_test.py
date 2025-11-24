@@ -21,7 +21,7 @@ class TestMagazine:
     def test_name_is_mutable(self):
         """Magazine name is mutable"""
         magazine = Magazine("Vogue", "Fashion")
-        # CHANGED: "Architectural Digest" was too long (22 chars), using a valid name instead.
+        
         magazine.name = "Arch Digest" 
         assert magazine.name == "Arch Digest"
         
